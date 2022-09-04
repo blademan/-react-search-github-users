@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const Followers = () => {
  const { followers } = React.useContext(GithubContext);
- const { avatar_url, login, html_url } = followers;
+
  return (
   <Wrapper className="section-center">
    <div className="followers">
